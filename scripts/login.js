@@ -1,6 +1,5 @@
-const form = document.getElementById('login-form')
-form.addEventListener('submit', function (event) {
-  event.preventDefault()
+const buttonForm = document.getElementById('form-button')
+buttonForm.addEventListener('click', function (event) {
 
   const email = document.getElementById('email').value.trim()
   const password = document.getElementById('password').value.trim()
