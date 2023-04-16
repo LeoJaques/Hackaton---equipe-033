@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tela de Login - Ache.me</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+	background-color: #E6F0F4;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+#header {
+	background-color: #006699;
+	color: white;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+}
+
+#header .header_title {
+	font-size: 24px;
+	margin-left: 20px;
+}
+
+.container {
+	background-color: #FFFFFF;
+	padding: 20px;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 50px;
+	width: 400px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	font-weight: bold;
+	margin-bottom: 5px;
+	color: #006699;
+}
+
+input[type=email], input[type=password] {
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 2px solid #006699;
+	border-radius: 5px;
+}
+
+input[type=submit] {
+	background-color: #006699;
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+input[type=submit]:hover {
+	background-color: #004466;
+}
+
+#forgot-password {
+	text-align: center;
+	margin-top: 20px;
+	color: #006699;
+	text-decoration: none;
+}
+
+  </style>
+</head>
+<body>
+  <header id="header">
+    <h1 class="header_title">Ache.me</h1>
+  </header>
+	<div class="container">
+		<h1>Login</h1>
+		<form action="#" method="post" id="login-form">
+			<label for="email">E-mail:</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="password">Senha:</label>
+			<input type="password" id="password" name="password" required>
+
+			<input type="submit" value="Entrar">
+		</form>
+		<a href="#" id="forgot-password">Esqueceu a senha?</a>
+	</div>
+
+	<script src="../scripts/login.js"></script>
+</body>
+</html>

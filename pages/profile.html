@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Perfil do Usuário</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/footer.css">
+  <link rel="stylesheet" href="../styles/header.css">
+  <style>
+    body {
+      background-color: #f6f6f6;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      margin: 0;
+      padding: 0;
+    }
+
+  
+    .container {
+      margin: 50px auto;
+      max-width: 700px;
+      padding: 30px;
+      background-color: #fff;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    .profile-img {
+      display: block;
+      margin: 0 auto;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid #fff;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .container h2 {
+      text-align: center;
+      font-weight: 700;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .profile-info {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 18px;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    .profile-info span {
+      margin-bottom: 10px;
+    }
+
+    .profile-info a {
+      color: #007bff;
+      text-decoration: none;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .profile-info a:hover {
+      color: #0056b3;
+    }
+  </style>
+</head>
+
+<body>
+  <header id="header">
+    <h1 class="header_title">Ache.me</h1>
+  </header>
+  <div class="container">
+    <img class="profile-img" src="https://picsum.photos/150">
+    <h2>Nome do Usuário</h2>
+    <div class="profile-info">
+      <span>Idade: 18 anos</span>
+      <span>Cidade: São Paulo</span>
+      <span>E-mail: usuario@gmail.com</span>
+      <span>Interesses: Programação, Design Gráfico</span>
+      <a href="#" class="em_breve">Editar Perfil</a>
+    </div>
+  </div>
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="../pages/profile.html"><img src="../assets/icons/profile.svg" alt="Perfil"></a></li>
+        <li><a href="../pages/notifications.html"><img src="../assets/icons/notificacao-activate.svg" alt="Notificações"></a></li>
+        <li><a href="../pages/opportunities.html"><img src="../assets/icons/menu.svg" alt=""></a></li>
+        <li><a href="#" class="em_breve"><img src="../assets/icons/forum.svg" alt="Forum"></a></li>
+      </ul>
+    </nav>
+  </footer>
+	<script src="../scripts/emBreve.js"></script>
+  
+  <script src="../scripts/emBreve.js" defer></script>
+</body>
+
+</html>

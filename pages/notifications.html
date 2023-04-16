@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  
+  <title>Notificações - Ache.me</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/footer.css">
+  <link rel="stylesheet" href="../styles/header.css">
+  <style>
+    body {
+      background-color: #f6f6f6;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      margin: 0;
+      padding: 0;
+    }
+
+  
+
+
+    .container {
+      margin-top: 50px;
+      margin-bottom: 60px;
+      text-align: center;
+    }
+
+    h2 {
+      margin-bottom: 30px;
+      color: #333;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .cards_container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+    }
+    
+    .card {
+      background-color: #fff;
+      box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+      border-radius: 5px;
+      margin: 20px;
+      width: 300px;
+      height: 180px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card:hover {
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+      transform: translateY(-10px);
+    }
+
+    .notif-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #fff;
+      border-radius: 50%;
+      height: 80px;
+      width: 80px;
+      margin-right: 20px;
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    .notif-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .notif-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .notif-message {
+      font-size: 16px;
+      color: #666;
+    }
+
+    .notif-date {
+      font-size: 14px;
+      color: #999;
+      margin-top: 10px;
+    }
+
+
+
+    
+  </style>
+</head>
+
+<body>
+  <header id="header">
+    <h1 class="header_title">Ache.me</h1>
+  </header>
+  <div class="container">
+    <h2>Notificações</h2>
+    <div class="cards_container">
+      <div class="card">
+        <div class="card_icon">
+          <img src="../assets/icons/notificacao.svg" alt="Ícone de notificação">
+        </div>
+        <div class="card_content">
+          <h3>Novas atualizações disponíveis</h3>
+          <p>Confira as novas atualizações disponíveis no sistema.</p>
+          <span class="card_date">10/04/2023</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card_icon">
+          <img src="../assets/icons/notificacao.svg" alt="Ícone de notificação">
+        </div>
+        <div class="card_content">
+          <h3>Novas mensagens</h3>
+          <p>Você tem novas mensagens na sua caixa de entrada.</p>
+          <span class="card_date">09/04/2023</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card_icon">
+          <img src="../assets/icons/notificacao.svg" alt="Ícone de notificação">
+        </div>
+        <div class="card_content">
+          <h3>Nova oportunidade de emprego</h3>
+          <p>Confira a nova oportunidade de emprego disponível para você.</p>
+          <span class="card_date">08/04/2023</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="../pages/profile.html"><img src="../assets/icons/profile.svg" alt="Perfil"></a></li>
+          <li><a href="../pages/notifications.html"><img src="../assets/icons/notificacao-activate.svg" alt="Notificações"></a></li>
+          <li><a href="../pages/opportunities.html"><img src="../assets/icons/menu.svg" alt=""></a></li>
+          <li><a href="#" class="em_breve"><img src="../assets/icons/forum.svg" alt="Forum"></a></li>
+        </ul>
+      </nav>
+    </footer>
+    <script src="../scripts/emBreve.js"></script>
+</body>
+
+</html>

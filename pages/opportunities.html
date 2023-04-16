@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Ache.me - Feed</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="../styles/footer.css">
+	<link rel="stylesheet" href="../styles/header.css">
+	<style>
+		body {
+			background-color: #f6f6f6;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 16px;
+			margin: 0;
+			padding: 0;
+		}
+
+		/* Estilos do main */
+
+		main {
+			max-width: 900px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+
+		.card-section {
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: column;
+			margin-bottom: 2rem;
+		}
+
+		.card {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			background-color: #fff;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+			width: calc(33.33% - 0.66rem);
+			padding: 1rem;
+			margin: auto;
+			margin-bottom: 2rem;
+		}
+	</style>
+</head>
+
+<body>
+	<header id="header">
+		<h1 class="header_title">Ache.me</h1>
+	</header>
+
+	<main>
+		<section class="card-section">
+			<div class="card">
+				<img src="../img/job.jpg" alt="Imagem da Vaga">
+				<h3>Desenvolvedor Full Stack</h3>
+				<p>Empresa: ACME</p>
+				<p>Cidade: São Paulo</p>
+				<p>Salário: R$ 5.000,00</p>
+				<p>Descrição: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut magna ac nisl convallis dignissim.
+				</p>
+				<a href="#" class="card-link">Mais detalhes</a>
+			</div>
+			<div class="card">
+				<img src="../img/bootcamp.jpg" alt="Imagem do Bootcamp">
+				<h3>Bootcamp de Front-end</h3>
+				<p>Instituição: Udacity</p>
+				<p>Duração: 3 meses</p>
+				<p>Descrição: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut magna ac nisl convallis dignissim.
+				</p>
+				<a href="#" class="card-link">Mais detalhes</a>
+			</div>
+			<div class="card">
+				<img src="../img/course.jpg" alt="Imagem do Curso">
+				<h3>Curso de Inglês Online</h3>
+				<p>Instituição: Babbel</p>
+				<p>Duração: 6 meses</p>
+				<p>Descrição: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut magna ac nisl convallis dignissim.
+				</p>
+				<a href="#" class="card-link">Mais detalhes</a>
+			</div>
+			<!-- adicione mais cards aqui -->
+		</section>
+	</main>
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="../pages/profile.html"><img src="../assets/icons/profile.svg" alt="Perfil"></a></li>
+        <li><a href="../pages/notifications.html"><img src="../assets/icons/notificacao-activate.svg" alt="Notificações"></a></li>
+        <li><a href="../pages/opportunities.html"><img src="../assets/icons/menu.svg" alt=""></a></li>
+        <li><a href="#" class="em_breve"><img src="../assets/icons/forum.svg" alt="Forum"></a></li>
+      </ul>
+    </nav>
+  </footer>
+	<script src="../scripts/emBreve.js"></script>
+</body>
+
+</html>
