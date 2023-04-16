@@ -5,10 +5,14 @@
   align-items: center;
 }
 
-#header .header_title {
+
+
+header a{
   color: #fff;
   font-size: 28px;
   font-weight: bold;
   float: left;
   margin-right: 20px;
+  text-decoration: none;
+  color: #f6f6f6;
 }

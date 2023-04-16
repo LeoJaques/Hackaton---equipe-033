@@ -20,4 +20,3 @@ buttonForm.addEventListener('click', function (event) {
     alert('E-mail ou senha incorretos.')
   }
 })
-

@@ -28,7 +28,7 @@
 			display: flex;
 			flex-wrap: wrap;
 			flex-direction: column;
-			margin-bottom: 2rem;
+			margin-bottom: 5rem;
 		}
 
 		.card {
@@ -44,43 +44,64 @@
 			margin: auto;
 			margin-bottom: 2rem;
 		}
+
+		.card img {
+			width: 100%;
+		}
+
+		.card-link {
+			text-decoration: none;
+			background-color: #006699;
+			color: #f6f6f6;
+			border-radius: 30px;
+			width: 50%;
+			text-align: center;
+			height: 30px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.card-link:hover {
+			background-color: #4169E1;
+		}
 	</style>
 </head>
 
 <body>
 	<header id="header">
-		<h1 class="header_title">Ache.me</h1>
+		<h1 class="header_title"><a href="../index.html">Ache.me</a></h1>
 	</header>
 
 	<main>
 		<section class="card-section">
 			<div class="card">
-				<img src="../img/job.jpg" alt="Imagem da Vaga">
+				<img src="../assets/imagens/acme-logo.png" alt="Imagem da Vaga">
 				<h3>Desenvolvedor Full Stack</h3>
 				<p>Empresa: ACME</p>
 				<p>Cidade: São Paulo</p>
 				<p>Salário: R$ 5.000,00</p>
 				<p>Descrição: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut magna ac nisl convallis dignissim.
 				</p>
-				<a href="#" class="card-link">Mais detalhes</a>
+				<a href="#" class="card-link em_breve">Mais detalhes</a>
 			</div>
 			<div class="card">
-				<img src="../img/bootcamp.jpg" alt="Imagem do Bootcamp">
+				<img src="../assets/imagens/logo_udacity.jpeg" alt="Imagem do Bootcamp">
 				<h3>Bootcamp de Front-end</h3>
 				<p>Instituição: Udacity</p>
 				<p>Duração: 3 meses</p>
 				<p>Descrição: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut magna ac nisl convallis dignissim.
 				</p>
-				<a href="#" class="card-link">Mais detalhes</a>
+				<a href="#" class="card-link em_breve">Mais detalhes</a>
 			</div>
 			<div class="card">
-				<img src="../img/course.jpg" alt="Imagem do Curso">
+				<img src="../assets/imagens/babbel-logo.png" alt="Imagem do Curso">
 				<h3>Curso de Inglês Online</h3>
 				<p>Instituição: Babbel</p>
 				<p>Duração: 6 meses</p>
 				<p>Descrição: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut magna ac nisl convallis dignissim.
 				</p>
-				<a href="#" class="card-link">Mais detalhes</a>
+				<a href="#" class="card-link em_breve">Mais detalhes</a>
 			</div>
 			<!-- adicione mais cards aqui -->
 		</section>

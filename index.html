@@ -41,6 +41,10 @@
 			display: flex;
 			flex-direction: column;
 		}
+		
+		form a {
+			text-decoration: none;
+		}
 
 		label {
 			font-weight: bold;
@@ -68,7 +72,7 @@
 			margin-bottom: 10px;
 		}
 
-		input[type=button]:hover {
+		input[type=submit]:hover {
 			background-color: #004466;
 		}
 
@@ -95,10 +99,10 @@
 			<input type="password" id="password" name="password" required>
 
 			<a href="./pages/opportunities.html" id="form-button">Entrar</a>
-
+			<a href="./pages/cadastro.html" target="_blank" id="form-button">Cadastrar-se</a>
 
 		</form>
-		<a href="#" id="forgot-password">Esqueceu a senha?</a>
+		<a href="#" class="em_breve" id="forgot-password">Esqueceu a senha?</a>
 	</div>
 
 	<script src="../scripts/login.js"></script>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro</title>
+  <style>
+    body {
+      background-color: #f6f6f6;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      margin: 0;
+      padding: 0;
+
+    }
+
+    #form {
+      width: 50%;
+      margin: 0 auto;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    label {
+
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+      margin-right: 10px;
+    }
+
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    button[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #3e8e41;
+    }
+    
+  </style>
+  <link rel="stylesheet" href="../styles/header.css">
+</head>
+
+<body>
+  <header id="header">
+    <h1 class="header_title"><a href="../index.html">Ache.me</a></h1>
+  </header>
+  <form id="form">
+    <label for="name">Nome completo:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="name">Localização:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="password">Senha:</label>
+    <input type="password" id="password" name="password" required>
+
+    <label for="gender">Gênero:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Masculino</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Feminino</label>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Outro</label>
+    <input type="radio" id="other" name="gender" value="other">
+
+
+    <br> <br>
+    <label for="social">Situação social:</label>
+    <select id="social" name="social">
+      <option value="">Selecione</option>
+      <option value="1">Baixa renda</option>
+      <option value="2">Média renda</option>
+      <option value="3">Alta renda</option>
+    </select>
+    <br> <br>
+
+    <label for="courses">Cursos de interesse:</label><br>
+    <input type="checkbox" id="course1" name="course1" value="engenharia">
+    <label for="course1">Engenharia</label><br>
+    <input type="checkbox" id="course2" name="course2" value="medicina">
+    <label for="course2">Medicina</label><br>
+    <input type="checkbox" id="course3" name="course3" value="direito">
+    <label for="course3">Direito</label><br>
+    <input type="checkbox" id="course4" name="course4" value="informatica">
+    <label for="course4">Informática</label><br>
+
+    <br> <br>
+
+    <label for="area">Área de atuação:</label><br>
+    <select id="area" name="area">
+
+      <option value="">Selecione</option>
+      <option value="engenharia">Engenharia</option>
+      <option value="medicina">Medicina</option>
+      <option value="direito">Direito</option>
+      <option value="informatica">Informática</option>
+    </select><br>
+    <label for="job">Cargo pretendido:</label><br>
+    <input type="text" id="job" name="job"><br>
+
+    <label for="work">Trabalha atualmente?</label><br>
+    <input type="radio" id="yes" name="work" value="yes">
+    <label for="yes">Sim</label><br>
+    <input type="radio" id="no" name="work" value="no">
+    <label for="no">Não</label><br>
+
+    <br>
+
+    <label for="study">Estuda atualmente?</label><br>
+    <input type="radio" id="yes" name="study" value="yes">
+    <label for="yes">Sim</label><br>
+    <input type="radio" id="no" name="study" value="no">
+    <label for="no">Não</label><br>
+
+    <button type="submit">Enviar</button>
+
+  </form>
+</body>
+
+</html>

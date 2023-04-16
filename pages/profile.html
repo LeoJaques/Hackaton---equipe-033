@@ -68,12 +68,19 @@
     .profile-info a:hover {
       color: #0056b3;
     }
+    
+    .share {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
   </style>
 </head>
 
 <body>
   <header id="header">
-    <h1 class="header_title">Ache.me</h1>
+    <h1 class="header_title"><a href="../index.html">Ache.me</a></h1>
   </header>
   <div class="container">
     <img class="profile-img" src="https://picsum.photos/150">
@@ -85,6 +92,10 @@
       <span>Interesses: Programação, Design Gráfico</span>
       <a href="#" class="em_breve">Editar Perfil</a>
     </div>
+  </div>
+  <div class="container share">
+    <p>Está gostando do app? Compartilhe com amigos </p>
+    <a class="em_breve" href="#"><img src="../assets/icons/share.svg" alt="Compartilhar"></a>
   </div>
   <footer>
     <nav>
